@@ -8,26 +8,26 @@
  */
 return [
     'auth' => [
-        'fail' => 'Failed log in',
-        'success' => 'Logged in',
-        'password-reset' => 'Password reset',
-        'reset-password' => 'Requested password reset',
-        'checkpoint' => 'Two-factor authentication requested',
-        'recovery-token' => 'Used two-factor recovery token',
-        'token' => 'Solved two-factor challenge',
-        'ip-blocked' => 'Blocked request from unlisted IP address for :identifier',
+        'fail' => 'Error al iniciar sesión',
+        'success' => 'Iniciado sesión',
+        'password-reset' => 'Restablecer contraseña',
+        'reset-password' => 'Restablecimiento de contraseña solicitado',
+        'checkpoint' => 'Se solicita autenticación de dos factores',
+        'recovery-token' => 'Token de recuperación de dos factores usado.',
+        'token' => 'Reto de dos factores resuelto.',
+        'ip-blocked' => 'Solicitud bloqueada de una dirección IP no listada para :identifier',
         'sftp' => [
             'fail' => 'Failed SFTP log in',
         ],
     ],
     'user' => [
         'account' => [
-            'email-changed' => 'Changed email from :old to :new',
-            'password-changed' => 'Changed password',
+            'email-changed' => 'Correo electrónico cambiado. anterior: :old nuevo: :new',
+            'password-changed' => 'Contraseña cambiada.',
         ],
         'api-key' => [
-            'create' => 'Created new API key :identifier',
-            'delete' => 'Deleted API key :identifier',
+            'create' => 'Nueva clave API creada: :identifier',
+            'delete' => 'Clave API eliminada: :identifier',
         ],
         'ssh-key' => [
             'create' => 'Added SSH key :fingerprint to account',
@@ -39,15 +39,15 @@ return [
         ],
     ],
     'server' => [
-        'reinstall' => 'Reinstalled server',
+        'reinstall' => 'Servidor reinstalado',
         'console' => [
             'command' => 'Executed ":command" on the server',
         ],
         'power' => [
-            'start' => 'Started the server',
-            'stop' => 'Stopped the server',
-            'restart' => 'Restarted the server',
-            'kill' => 'Killed the server process',
+            'start' => 'Inició el servidor',
+            'stop' => 'Detuvo el servidor',
+            'restart' => 'Reinicié el servidor',
+            'kill' => 'Eliminó el proceso del servidor.',
         ],
         'backup' => [
             'download' => 'Downloaded the :name backup',
