@@ -2,13 +2,13 @@
 
 return [
     'notices' => [
-        'created' => 'A new nest, :name, has been successfully created.',
-        'deleted' => 'Successfully deleted the requested nest from the Panel.',
-        'updated' => 'Successfully updated the nest configuration options.',
+        'created' => 'Se ha creado exitosamente un nuevo nest, :name.',
+        'deleted' => 'Se eliminó exitosamente el nest solicitado del Panel.',
+        'updated' => 'Se actualizaron con éxito las opciones de configuración del nest.',
     ],
     'eggs' => [
         'notices' => [
-            'imported' => 'Successfully imported this Egg and its associated variables.',
+            'imported' => 'Importó con éxito este huevo y sus variables asociadas.',
             'updated_via_import' => 'This Egg has been updated using the file provided.',
             'deleted' => 'Successfully deleted the requested egg from the Panel.',
             'updated' => 'Egg configuration has been updated successfully.',
