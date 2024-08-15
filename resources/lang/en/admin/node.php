@@ -6,11 +6,11 @@ return [
         'fqdn_required_for_ssl' => 'A fully qualified domain name that resolves to a public IP address is required in order to use SSL for this node.',
     ],
     'notices' => [
-        'allocations_added' => 'Allocations have successfully been added to this node.',
-        'node_deleted' => 'Node has been successfully removed from the panel.',
-        'location_required' => 'You must have at least one location configured before you can add a node to this panel.',
-        'node_created' => 'Successfully created new node. You can automatically configure the daemon on this machine by visiting the \'Configuration\' tab. <strong>Before you can add any servers you must first allocate at least one IP address and port.</strong>',
-        'node_updated' => 'Node information has been updated. If any daemon settings were changed you will need to reboot it for those changes to take effect.',
+        'allocations_added' => 'Las asignaciones se han agregado correctamente a este nodo.',
+        'node_deleted' => 'El nodo se ha eliminado correctamente del panel.',
+        'location_required' => 'Debe tener al menos una ubicación configurada antes de poder agregar un nodo a este panel.',
+        'node_created' => 'Nuevo nodo creado correctamente. Puede configurar automáticamente el demonio en esta máquina visitando el\'Configuration\' tab. <strong>Before you can add any servers you must first allocate at least one IP address and port.</strong>',
+        'node_updated' => 'La información del nodo ha sido actualizada. Si se cambió alguna configuración del demonio, deberá reiniciarlo para que esos cambios surtan efecto.',
         'unallocated_deleted' => 'Deleted all un-allocated ports for <code>:ip</code>.',
     ],
 ];
