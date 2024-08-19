@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'sign_in' => 'Sign In',
-    'go_to_login' => 'Go to Login',
-    'failed' => 'No account matching those credentials could be found.',
+    'sign_in' => 'Iniciar Sesión',
+    'go_to_login' => 'Ir a Iniciar sesión',
+    'failed' => 'No se pudo encontrar ninguna cuenta que coincida con esas credenciales.',
 
     'forgot_password' => [
-        'label' => 'Forgot Password?',
+        'label' => 'Has olvidado tu contraseña?',
         'label_help' => 'Enter your account email address to receive instructions on resetting your password.',
         'button' => 'Recover Account',
     ],
